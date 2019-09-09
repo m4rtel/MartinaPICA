@@ -4,4 +4,22 @@ header {
    } 
    body {
     background-color: #0f6cb967;
+   }    
+   p {
+       text-align: justify;
+       width: 500px;
+       background-color: #0f6cb967;
+       line-height: 20px;
+       font-size: 16px;
    }
+   h1 {
+       font-size: 27px;
+       text-transform: uppercase;
+   }
+  a {
+      color: black;
+  }
+  a:hover {
+      color: rgb(45, 104, 64);
+  }
+  
