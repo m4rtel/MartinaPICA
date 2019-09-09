@@ -22,4 +22,8 @@ header {
   a:hover {
       color: rgb(45, 104, 64);
   }
-  
+  #phone {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+  }
