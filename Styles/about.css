@@ -1,0 +1,36 @@
+.header2 {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    background-color: rgba(169, 120, 214, 0.726);
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 25px;
+}
+body {
+    background-color: rgba(183, 153, 211, 0.555);   
+}
+.text {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 65%;
+    height: auto;
+    justify-content: center;
+    font-family: 'Architects Daughter', cursive;
+}
+.left-add {
+    text-align: center;
+    float: left;
+    width: 10%; 
+}
+footer {
+    background-color: rgba(169, 120, 214, 0.726);
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+    font-size: auto;   
+}
+
+
