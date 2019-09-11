@@ -1,0 +1,49 @@
+/* Mobile version ------------------------------------------------------------------------*/
+@media (min-width: 576px) {
+    .index {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-template-rows: auto 1fr;
+        grid-template-areas: 
+        "header header"
+        "body   body  "
+        "body   body  "
+        "body   body  "
+        "footer footer"
+    }
+}
+.header-picture {
+    display: grid;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 10%;
+    min-height: 110%;
+}
+.nav-btn {
+    display: grid;
+    margin: center;
+}
+header {
+    background-color: rgba(190, 201, 252, 0.815);
+}
+
+
+
+
+
+}
+/* Mobile version 2 ------------------------------------------------------------------------*/
+
+/* PC version ------------------------------------------------------------------------*/
+@media (min-width: 992px) {
+    .index {
+        grid-template-columns: auto 1fr;
+        grid-template-rows: auto 1fr;
+        grid-template-areas: 
+        "header header"
+        "body   body  "
+        "body   body  "
+        "body   body  "
+        "footer footer"
+    }
+}
